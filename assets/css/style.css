@@ -1,0 +1,261 @@
+/*=============================  FONT  =====================================*/
+
+@font-face {
+    font-family: 'Ordinary';
+    src: url('./../font/Ordinary.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('./../font/Lato-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/*=============================  ALL  =====================================*/
+
+*{
+  box-sizing: border-box;
+  margin:0px;
+  padding:0px;
+  text-decoration: none;
+  list-style: none;
+}
+html{
+  font-size: 16px;
+}
+
+html,body
+{
+    height: 100%;
+    overflow-x:hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+}
+
+/*=============================  NAV  =====================================*/
+
+.header {
+  height: 25%;
+  background-color: #edc91c;
+  position:relative;
+}
+
+.svg{
+  filter: drop-shadow(5px 5px 5px #837011);
+
+}
+
+.logo{
+  width:8%;
+  position:absolute;
+  top:30%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+.picto{
+  position:absolute;
+  top:8%;
+  display:inline;
+  left:1%;
+}
+
+.picto img{
+  width:10%;
+  display: inline-block;
+}
+
+.picto p{
+  display:inline-block;
+  color:white;
+  margin-left:20px;
+}
+
+.picto2{
+  position:absolute;
+  top:8%;
+  right:8%;
+}
+
+.picto2 p{
+  color:white;
+}
+
+.picto3{
+  position: absolute;
+  top:8%;
+  right:0;
+  text-align: center;
+}
+
+.picto3 img{
+  display:inline-block;
+  width: 25%;
+}
+
+.picto3 p{
+  display: inline-block;
+  color:white;
+
+}
+
+
+.bottom{
+  display:flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin-left: 60px;
+}
+
+.rsn a{
+  margin: 0 5px;
+}
+
+.nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.nav li{
+  cursor:pointer;
+  margin: 0 15px;
+}
+
+.nav li a{
+  font-family: 'Lato-Light';
+  color:#696969;
+  font-size: 2rem;
+  margin: 0 10px;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 3px solid black;
+}
+
+
+
+.carousel{
+  background-color:blue;
+  height:65%;
+}
+
+.valeurs{
+  background:#464445;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.valeurs h2{
+  font-family: 'Ordinary';
+  font-size: 3rem;
+  color: white;
+  margin-top: 40px;
+  letter-spacing: 2px;
+}
+
+.valeurs p{
+  font-size: 1.2rem;
+  color: white;
+  text-align: justify;
+  text-align-last:center;
+  width:50%;
+  margin:40px 0;
+  font-family: 'Lato-Light';
+}
+
+
+.perso{
+  background-color: #edc91b;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.perso h2{
+  font-family: 'Ordinary';
+  font-size: 3rem;
+  color: white;
+  margin-top: 40px;
+  letter-spacing: 2px;
+}
+
+.img {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:50%;
+  margin: 40px 0;
+  text-align: center;
+}
+
+.img figure{
+  margin: 0 60px;
+  background: #464445;
+}
+
+.img figure img{
+  height:auto;
+
+}
+
+.img figure figcaption{
+  font-size: 1.2rem;
+  font-family:'Lato';
+  color:white;
+  margin: 10px 0;
+}
+
+
+.spacer {
+    background-image: url("./../img/metal.jpg");
+    height: 35%;
+    min-height: 25%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow{
+  background-color:#edc91b;
+}
+
+
+
+footer{
+  background-color: #38332c;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p{
+  font-family:'Lato';
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  color:white;
+}
