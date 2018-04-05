@@ -152,7 +152,8 @@ input {
 
 
 .carousel{
-  background-color:blue;
+  background: url('./../img/carou.jpg') no-repeat;
+  background-size: cover;
   height:65%;
 }
 
@@ -259,3 +260,15 @@ footer p{
   letter-spacing: 1px;
   color:white;
 }
+
+li{
+  transition: border-bottom 2s ease-in-out ;
+}
+
+
+li:hover{
+  border-bottom:2px solid #464445 ;
+
+}
+
+
